@@ -1,0 +1,178 @@
+#navbar {
+    background-color:#4cd137;
+    color: #fff;
+}
+
+#logo {
+    font-size: 1.8rem;
+    margin-top: 5px;
+}
+
+.logo-img{
+    width: 40px;
+    height: 40px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #fff;
+    padding: 17px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color:#44bd32;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+.img-carousel{
+    width: 100%;
+    height: 100%;
+}
+#banner{
+    padding: 20px 0;
+}
+
+.header{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.header:after{
+    background: #44bd32;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+.news-section img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.news-section h4{
+    margin-bottom: 10px;
+    color: #44bd32;
+}
+
+.news-section a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #4cd137;
+}
+
+.news-section a:hover{
+    color: #318e23;
+}
+
+.testimonials{
+    background-color: #256d1a;
+}
+.players-section{
+    padding: 20px 0;
+    color: #fff;
+}
+
+.players-card img{
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.players-card h4{
+    text-align: center;
+    color: #40ff22;
+}
+
+.players-card p{
+    text-align: center;
+    margin-top: 15px;
+    color: #fff;
+}
+
+#table-header{
+    background-color:#1dd1a1;
+    color: #fff;
+}
+
+#table{
+    background-color: #fff;
+
+}
+.table-heading h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.table-heading p{
+    text-align: center;
+}
+
+.table-heading h2{
+    text-align: center;
+    color: #fff;
+}
+
+.table-heading h2:after{
+    background: #576574;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+.table{
+    width: 100%;
+}
+
+.flag{
+    width: 20px;
+    height: 15px;
+    margin-bottom: 4px;
+}
+
+#table-header-2{
+    background-color: #4cd137;
+}
+
+#table-header-3{
+    background-color: #44bd32;
+}
+
+.matches-header{
+    background-color: #256d1a;
+    color: #fff;
+}
+
+.content-matches{
+    background-color: #dfdcdc;
+}
+#matches{
+    display: flex;
+    justify-content: space-between;
+}
+.live-matches{
+    padding: 10px 20px;
+    height: 170px;
+    background-color: #fff;
+    border: 1px solid gray;
+}
+
