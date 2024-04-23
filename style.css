@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;400&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3
+}
+.navbar-section{
+    position: sticky;
+}
+.navbar-section a{
+    color: #fff;
+}
+
+.navbar-section a:hover{
+    color: rgb(255, 111, 0);
+}
+
+.navbar-brand{
+    font-size:1.8rem;
+    font-weight: 800;
+}
+
+.home-section{
+    background-color: black;
+}
+
+.texting h4{
+    margin-top: 100px;
+    font-size: 1rem;
+    color: rgb(255, 111, 0);
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.texting h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #fff;
+}
+
+.yellow-text{
+    color:rgb(255, 111, 0);
+}
+
+.texting h2{
+    margin-top: 25px;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #fff;
+}
+
+.texting p{
+    padding-top: 70px;
+}
+.texting p a{
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 30px;
+}
+
+.yellow-bt{
+    background-color: rgb(255, 111, 0);
+    color: black;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: all 0.4s ease-in-out;
+}
+
+.yellow-bt:hover{
+    background-color:rgb(247, 54, 0);
+}
+
+.black-bt{
+    background-color:black;
+    color: #fff;
+    border: 1px solid rgb(255, 111, 0);
+    font-weight: 600;
+}
+
+.imaging img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-section{
+    background-color: black;
+}
+.passport-img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 111, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.self-intro{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.self-intro p{
+    color: #878585;
+    font-size: 1.1rem;
+}
+
+.self-intro h4{
+    color: #878585;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.self-intro span{
+    color: #aaa5a5;
+    
+}
+.progress{
+    width: 90%;
+    background-color: #4b4949;
+    margin-top: 5px;
+}
+.progress-bar{
+    background-color:rgb(255, 111, 0);
+}
+.about-me h2{
+    margin-top: 50px;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+
+.about-me p{
+    color: #878585;
+    font-size: 1.1rem;
+
+}
+
+.padding{
+    padding-top: 65px;
+}
+
+.bold{
+    color: #fff;
+    font-weight: 800;
+}
+
+.light{
+    padding-left: 80px;
+}
+
+.light-2{
+    padding-left: 46px;
+}
+
+.light-3{
+    padding-left: 48px;
+}
+
+.light-4{
+    padding-left: 32px;
+}
+
+.light-5{
+    padding-left: 68px;
+}
+
+.light-6 {
+    padding-left: 64px;
+}
+
+#resume-section{
+    background-color: black;
+}
+
+.resume-header{
+    padding-top: 30px;
+}
+.resume-header h1{
+    text-align: center;
+    font-weight: 800;
+    color: #fff;
+    font-size: 2.6rem;
+}
+
+.resume-header p{
+    padding-top: 30px;
+    text-align: center;
+    color: #898383;
+    font-size: 1rem;
+}
+
+.resume-header h2{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+}
+
+.underline{
+    width: 100%;
+    height: 4px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(244, 244, 125) 20%, rgb(241, 119, 4) 50%, #ff8f39 100%);
+    margin-top: 5px;
+    opacity: 50%;
+}
+
+.fsc{
+    background-color: #373636;
+    color: #fff;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.fsc h1{
+    font-weight: 800;
+    padding-top:30px;
+    color: rgb(255, 111, 0);
+}
+
+.fsc h3{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.fsc h4{
+    font-size: 1rem;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.fsc h5{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.date{
+    padding-left: 15px;
+    color: rgb(255, 111, 0);
+}
+.para{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #aaa5a5;
+}
+
+.marks{
+    padding-left: 15px;
+}
+
+.marks-3{
+    padding-left: 23px;
+}
+
+.bscs h2{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 2px;  
+}
+
+.bs{
+    background-color: #373636;
+    color: #fff;
+    padding: 30px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.bs h1{
+    text-align: center;
+    color: rgb(255, 111, 0);
+    padding-top: 10px;
+    font-weight: 800;
+}
+
+.bs h3{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 800;
+}
+
+.bs h5{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.bs p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.project-section{
+    background-color: black;
+}
+
+.project h1{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+.project p{
+    text-align: center;
+    color: #898383;
+    padding-top: 10px;
+}
+
+.websites{
+    margin-top: 15px;
+}
+
+.img-web{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+}
+
+.img-web:hover{
+    width: 90%;
+    height: 180px;
+}
+.websites li a{
+    color: rgb(255, 111, 0);
+    font-weight: 600;
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.websites li a:hover{
+    color: rgb(247, 54, 0);
+}
+.websites li{
+    padding-top: 10px;
+}
+.websites h4{
+    color: #898383;
+    font-size: 1rem;
+    padding-top: 15px;
+    width: 80%;
+    line-height: 25px;
+}
+
+.hire-me-section{
+    background-image: url(Images/black\ mounatain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hire-me{
+    height: 400px;
+}
+.hire-me h1{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 120px;
+    color: #fff;
+}
+
+.hire-me h3{
+    color:white;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    text-align: center;
+}
+.hire-me p{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.hire-me p a{
+    background-color: rgb(255, 111, 0);
+    color: black;
+    border: 1px solid transparent;
+    font-weight: 600;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.hire-me p a:hover{
+    background-color: rgb(247, 54, 0);
+}
+
+
+.contact-me-section{
+    background-color: black;
+}
+
+.contact-me-section h1{
+    padding-top: 25px;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.contact-me-section h5{
+    padding-top: 10px;
+    color: #878585;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.icons p{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.icons p i{
+    font-size: 2rem;
+    color: rgb(255, 111, 0);
+    padding: 35px 35px;
+    border-radius: 50%;
+    background-color: #373636;
+}
+
+.icons h4{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 15px;
+    font-size: 1.2rem;
+}
+
+.icons h5{
+    text-align: center;
+    color: #878585;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.question{
+    padding-top: 70px;
+}
+
+.question h3{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.click a{
+    background-color: rgb(255, 111, 0);
+    color: black;
+    border: 1px solid transparent;
+    font-weight: 600;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    font-size: 1.5rem;
+}
+
+.click a:hover{
+    background-color: rgb(247, 54, 0);
+}
+
+.find-us{
+    padding-top: 10px;
+}
+
+.find-us p{
+    text-align: center;
+    color: #878585;
+    margin-top: 15px;
+}
+.find-me{
+    padding-left: 5px;
+}
+.find-me i{
+    font-size: 1rem;
+    color: rgb(255, 111, 0);
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #373636;
+    transition: all 0.4s ease-in-out;
+}
+
+.find-me i:hover{
+    background-color: rgb(255, 111, 0);
+    color:#fff;
+}
+
+.footer-section{
+    background-color: black;
+}
+
+.copyright{
+    padding-top: 25px;
+}
+
+.copyright p{
+    text-align: center;
+    color: #898383;
+    margin-top: 30px;
+}
+
+@media (max-width: 425px){
+    .question h3{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    .padding{
+    padding-top: 0;
+    }
+}
