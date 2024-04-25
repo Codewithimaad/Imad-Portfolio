@@ -142,7 +142,7 @@
     background-color:rgb(255, 111, 0);
 }
 .about-me h2{
-    margin-top: 50px;
+    margin-top: 25px;
     font-size: 3rem;
     font-weight: 800;
     color: #fff;
@@ -541,5 +541,8 @@
 @media (max-width: 768px){
     .padding{
     padding-top: 0;
+    }
+    .about-me h2{
+        margin-top: 35px;
     }
 }
