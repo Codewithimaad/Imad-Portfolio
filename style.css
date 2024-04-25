@@ -43,7 +43,7 @@
 
 .nav-item:hover::after{
     opacity: 1;
-    
+}   
 .navbar-toggler{
     background-color:  rgb(255, 111, 0);
     border: none;
