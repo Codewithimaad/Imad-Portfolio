@@ -31,6 +31,19 @@
     font-weight: 800;
 }
 
+.nav-item::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: rgb(255, 111, 0);
+    display: block;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.nav-item:hover::after{
+    opacity: 1;
+    
 .navbar-toggler{
     background-color:  rgb(255, 111, 0);
     border: none;
