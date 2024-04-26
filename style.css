@@ -15,6 +15,19 @@
     right: 0;
     z-index: 3
 }
+
+.logo{
+    font-size:1.8rem;
+    font-weight: 800;
+    color: #fff;
+}
+.logo span{
+    color: #FC4100;
+}
+
+.logo:hover{
+    color: #FC4100;
+}
 .navbar-section{
     position: sticky;
 }
